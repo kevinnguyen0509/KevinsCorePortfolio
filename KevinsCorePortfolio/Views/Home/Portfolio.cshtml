@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<link rel="stylesheet" type="text/css" href="~/css/index.css" />
+
+<div class="container">
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid" style=" background: white; border-radius: 5px;">
+            <div class="container">
+                <h1 class="display-4">Kevin Nguyen's Portfolio</h1>
+                <p class="lead">Explore the different projects I've built over the years</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-11" style="border-left: 4px solid white; border-bottom: 1px solid white; margin: 40px;">
+            <h1 style="color: white;">Fullstack Development + api</h1>
+        </div>
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/duoBudget.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">DuoBudget</h5>
+                    <p class="card-text"><strong>Asp.net stack:</strong> An application to share finances with your partner to make financial planning easier</p>
+                    <a href="https://duobudget.azurewebsites.net" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                    <a href="https://github.com/kevinnguyen0509/DuoBudget" target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/toDuoList.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ToDuoList</h5>
+                    <p class="card-text"><strong>Asp.net stack:</strong> An application to share a grocery list with your partner that you can both add and remove from</p>
+                    <a href="http://toduolist.azurewebsites.net/" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                    <a href="https://github.com/kevinnguyen0509/ToDuoList" target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/stockCalculator.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Stock calculator</h5>
+                <p class="card-text">Worked with an API in order to get raw financial data so I could quickly calculate if its a good stock to research or not.</p>
+                    <a href="https://kevinsportfolio.azurewebsites.net/projects/stock-calculator/index.html" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                    <a href="https://github.com/kevinnguyen0509/KevinsPortfolioProjects/tree/master/kevins-portfolio/projects/stock-calculator"  target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Second Row-->
+    <div class="row">
+        <div class="col-11" style="border-left: 4px solid white; border-bottom: 1px solid white; margin: 40px;">
+            <h1 style="color: white;">Frontend Development</h1>
+        </div>
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/tillio.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tillo</h5>
+                <p class="card-text">This application was me working on frontend skills. Its to play around with animations as well css and javascript</p>
+                    <a href="https://kevinsportfolio.azurewebsites.net/projects/tillio/index.html" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/Omnifood.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Omnifood</h5>
+                    <p class="card-text">This project was used to sharpen my frontend skills on animations specifically scroll animations.</p>
+                    <a href="https://kevinsportfolio.azurewebsites.net/projects/Omnifood/index.html#" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                    <a href="https://github.com/kevinnguyen0509/KevinsPortfolioProjects/tree/master/Realworldresponsiveweb/Omnifood" target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="~/img/portfolio/NumberGame.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Number game</h5>
+                    <p class="card-text">A project used to sharpen my Javascript skills. Its a guessing game that tells the user if the are close to the correct number.</p>
+                    <a href="https://kevinsportfolio.azurewebsites.net/projects/guessMyNumberGame/index.html" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                    <a href="https://github.com/kevinnguyen0509/KevinsPortfolioProjects/tree/master/kevinsPortfolio/Projects/showcase/guessMyNumberGame" target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-4">
+                <div class="card" style="border: none;">
+                    <img class="card-img-top" src="~/img/portfolio/piggame.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pig game</h5>
+                        <p class="card-text">A project to recreate the "pig-game" where the user tries to get to 100, but if you roll a 1 its the other player's turn.'</p>
+                        <a href="https://kevinsportfolio.azurewebsites.net/projects/pig-game/index.html" target="_blank" class="btn btn-primary" style="border: none;">Website</a>
+                        <a href="https://github.com/kevinnguyen0509/KevinsPortfolioProjects/tree/master/kevinsPortfolio/Projects/showcase/pig-game" target="_blank" class="btn btn-primary" style="background: #302f2f; border: none;">github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

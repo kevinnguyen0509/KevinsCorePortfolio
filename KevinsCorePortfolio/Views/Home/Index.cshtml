@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" type="text/css" href="~/css/index.css" />
+
+<div class="row" style="height: 80vh;">
+    <div class="order-2 col-xs-12 col-md-6  leftSideContainer" id="leftContainer">
+        <div class="row">
+            <div class="col-12 centerContent">
+                <h1>Hello, I'm <span class="highlightedText">Kevin Nguyen!</span></h1>
+                <h3 class="">Software Developer based in Seattle, Washington</h3>
+                <h5 class="purpleLine" style="word-break:break-word; width: 80%; margin-top: 10px;">I'm a passionate software developer seeking a long-term role to harness my skills, drive innovation, and contribute to your company's success.</h5>
+                <div id="ButtonContainer">
+                    <a href="/Home/Portfolio">
+                        <button id="portfolioButton" type="button" class="btn btn-primary landingPageButtons"><i class="fas fa-folder landingPageFontIcon"></i><h4 style="margin:0px;">Portfolio</h4></button>
+                    </a>
+                    <button id="githubButton" type="button" class="btn btn-primary landingPageButtons" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="fas fa-phone landingPageFontIcon"></i> <h4 style="margin:0px;">Contact</h4></button>
+                </div>
+               
+            </div>
+           
+
+            <div class="col-12">
+                <h6><span class="highlightedText">Technologies used</span>, but not limted to:</h6>
+                <p>C# | Asp.net MVC | MongoDB | Express.js | SASS | Azure | Github | Postman | Nodejs |.Net Core and entity framework MySQL Databases | SQL Stored Procedures | Creating Relational Database Designs | Java | SQL | JavaScript | HTML/CSS | Bootstrap | AJAX | Fullstack Developer</p>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="order-1 col-xm-12 col-md-6" id="rightSide">
+        <div id="profileImageContainer">
+            <img class="profileImg" src="~/img/KevinProfilePic1.jpg" />
+        </div>
+    </div>
+</div>
+
+

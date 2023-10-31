@@ -1,0 +1,78 @@
+﻿.leftSideContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+
+#ButtonContainer {
+    display: flex;
+    margin-bottom: 50px
+}
+
+#portfolioButton {
+    background: #3E32E4 !important;
+    border-color: #3E32E4 !important;
+    margin-right: 10px;
+}
+#githubButton {
+    display: flex;
+    background-color: #19192A;
+    border-color: #3E32E4 !important;
+}
+
+.purpleLine::after {
+    content: "";
+    display: block;
+    height: 0.5em;
+    vertical-align: central;
+    align-items: center;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-top: 3px solid #3E32E4;
+}
+
+
+/*Right Side*/
+#rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#profileImageContainer {
+    width: 500px;
+    border-radius: 2000px;
+    border: 10px solid;
+    border-color: #7d76dd;
+}
+
+.profileImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 2000px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+.landingPageButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingPageFontIcon{
+    margin-right: 10px;
+}
+
+
